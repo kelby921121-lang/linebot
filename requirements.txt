@@ -1,0 +1,8 @@
+flask
+gunicorn
+requests
+pandas
+numpy
+chromadb
+sentence-transformers
+torch
