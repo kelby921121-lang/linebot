@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1Q_Q9MVF3UUvlMxofCUEtziK60-qVdDNf
 """
 
-!pip install -q "opentelemetry-sdk==1.38.0" \
+pip install -q "opentelemetry-sdk==1.38.0" \
                 "opentelemetry-api==1.38.0" \
                 "opentelemetry-exporter-otlp-proto-grpc==1.38.0"
 
-!pip install -q chromadb sentence-transformers flask requests pypdf
+pip install -q chromadb sentence-transformers flask requests pypdf
 
 import os
 import re
